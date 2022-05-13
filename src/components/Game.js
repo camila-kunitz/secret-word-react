@@ -36,7 +36,7 @@ const Game = ({
       <div className="wordContainer">
         {letters.map((letter, i) =>
           guessedLetters.includes(letter) ? (
-            <span key={i} className="letter">
+            <span className="letter" key={i}>
               {letter}
             </span>
           ) : (
@@ -50,9 +50,9 @@ const Game = ({
           <input
             type="text"
             name="letter"
-            maxLength={1}
+            maxLength="1"
+            onChange={(e) => setLetter(e.target.value)}
             required
-            onChange={(event) => setLetter(event.target.value)}
             value={letter}
             ref={letterInputRef}
           />
