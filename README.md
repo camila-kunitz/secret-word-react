@@ -1,6 +1,6 @@
 # Projeto Secret Word - React
 
-O Projeto **Secret Word** é o primeiro de três projetos propostos no curso de **React do Zero a Maestria** da plataforma Udemy lançado neste ano de 2022.
+O Projeto **Secret Word** é o primeiro de quatro projetos propostos pelo curso de **React do Zero a Maestria** da plataforma Udemy lançado neste ano de 2022.
 
 Este primeiro projeto web trabalha desde fundamentos básicos à avançados do React utilizados no mercado de trabalho.
 
